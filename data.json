@@ -1,0 +1,58 @@
+{"furniture":[
+    {
+        "class":"active",
+        "title":"bedroom",
+        "furnitureimg":{
+            "images1":"./images/Bedroom/bedroom1.jpeg",
+            "images2":"./images/Bedroom/bedroom2.jpeg",
+            "images3":"./images/Bedroom/bedroom3.webp",
+            "images4":"./images/Bedroom/bedroom4.jpeg",
+            "images5":"./images/Bedroom/bedroom5.webp",
+            "images6":"./images/Bedroom/wardrobe.jpg",
+            "images7":"./images/Bedroom/wardrobe2.jpeg",
+            "images8":"./images/Bedroom/cabinet.webp"
+
+    }
+},
+{
+    "class":"disable",
+    "title":"kitchen",
+        "furnitureimg":{
+            "images1":"./images/kitchen/kitchen1.jpeg",
+            "images2":"./images/kitchen/kitchen2.jpeg",
+            "images3":"./images/kitchen/kitchen3.jpeg",
+            "images4":"./images/kitchen/kitchen4.jpeg",
+            "images5":"./images/kitchen/kitchen5.jpeg",
+            "images6":"./images/kitchen/kitchen6.jpeg",
+            "images7":"./images/kitchen/kitchen7.jpeg",
+            "images8":"./images/kitchen/kitchen8..jpeg"
+
+}
+},
+{
+    "class":"disable",
+    "title":"office",
+    "furnitureimg":{
+        "images1":"./images/office/office5.jpeg",
+        "images2":"./images/office/office2.webp",
+        "images3":"./images/office/office3.jpeg",
+        "images4":"./images/office/office4.jpeg",
+        "images5":"./images/office/office5.jpeg",
+        "images6":"./images/office/office6.webp",
+        "images7":"./images/office/office4.jpeg",
+        "images8":"./images/office/office5.jpeg"
+    }
+    },
+    {
+            "class":"disable",
+            "title":"decoration",
+            "furnitureimg":{
+                    "images1":"./images/decoration/decoration1.jpeg",
+                    "images2":"./images/decoration/decoration2.jpeg",
+                    "images3":"./images/decoration/decoration6.webp",
+                    "images4":"./images/decoration/decoration4.jpeg",
+                    "images5":"./images/decoration/decoration5.jpeg",
+                    "images6":"./images/decoration/decoration4.jpeg"
+                }
+        }
+]}

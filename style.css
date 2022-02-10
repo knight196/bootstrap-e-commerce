@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    background:teal;
+}
+body{
+    scroll-behavior: smooth;
+}
+/*homepage*/
+.main-homepage{
+    background-image: url("./images/livingroom.jpg");
+    min-height:100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.arrow-down{
+    position:relative;
+    animation:down 1.5s linear infinite;
+}
+@keyframes down{
+    0%{
+        top:-2px;
+    }
+    100%{
+        top:2px;
+    }
+}
+.homepage-info{
+    position: absolute;
+    top:50%;
+    left:0;
+    right:0;
+    overflow: hidden;
+}
+/* navbar */
+.nav-link{
+    font-size: 20px !important;
+}
+.navbar-brand{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar-fixed{
+    position: fixed;
+    top:0;
+    left:0;
+    margin-top:50px;
+    width:100%;
+}
+/*slideshow*/
+.carousel img{
+height:400px;
+}
+.col img{
+    height:300px;
+}
+.container-fluid {
+    background:teal !important;
+}
+/* slide container */
+.slide-container{
+    padding:4rem 0;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    position: relative;
+}
+.thumbnail img{
+    width:100%;
+    height:300px;
+}
+.container-slider{
+    width:100%;
+    margin:0 auto;
+}
+.arrow{
+    width:2rem;
+    margin:0 1rem;
+    z-index:1;
+    position: absolute;
+}
+#slide-left{
+    top: 50%;
+    left:0;
+}
+#slide-right{
+    top: 50%;
+    right:0;
+}
+section{
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-color:black grey;
+    scrollbar-width:thin;
+    scroll-behavior: smooth;
+}
+section .thumbnail{
+    flex: 0 0  auto;
+    object-fit:cover;
+    cursor:pointer;
+    margin:5px;
+    width:100%;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: all .3s;
+}
+/* footer */
+.more-info{
+    display:flex;
+    justify-content: space-between;
+    padding:0 20px;
+}
+.thumbnail2 img{
+    width:300px;
+    height:300px;
+}
+.thumbnail2{
+    background:coral;
+    position: relative;
+}
+.thumbnail2 button{
+    position: absolute !important;
+    z-index:1;
+    right:0;
+    left:0;
+    margin:auto;
+    bottom:20%;
+    border:none;
+    padding:1px 20px;
+    border-radius: 20px;
+}
+/* tabs */
+.tab-grid{
+margin:0 auto;
+padding:30px;
+    column-count:2;
+    column-gap: 20px;
+}
+.tab-grid > *{
+    width:100%;
+    height:auto;
+    display: block;
+    padding:10px;
+    object-fit: stretch;
+}
+
+@media screen and (min-width:720px){
+    .storage-container{
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+    .storage-flex{
+        width:60%;
+    }
+    .row{
+        flex-direction: row !important;
+    }
+    .row > .col:nth-child(2){
+        margin:0 auto !important;
+    }
+    .thumbnail{
+        width:50% !important;
+    }
+    .tab-grid{
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width:1020px){
+    .carousel img{
+        height:600px;
+    }
+    .navbar-btn{
+        display:block !important;
+        font-size: 20px !important;
+    }
+    .navbar-brand{
+        font-size: 30px !important;
+    }
+    .navbar-fixed{
+        position:relative !important;
+        margin:auto;
+        width:50%;
+    }
+    .col img{
+        height:600px;
+    }
+    .thumbnail{
+        width:30% !important;
+    }
+    .offers-flex{
+        flex-direction: row !important;
+    }
+    .offers-flex img{
+        width:100% !important;
+        height:400px !important;
+    }
+    .offers-info{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .services-grid .row-cols-2{
+        display:grid;
+        grid-template-columns: auto auto auto auto !important;
+    }
+    .services-grid .col{
+        width:100%;
+    }
+  .footer-flex{
+      display: flex;
+      justify-content: space-between;
+  }
+  .more-info{
+      width:100%;
+      padding:20px;
+  }
+  .icons-flex{
+flex-direction: row !important;
+  }
+  .thumbnail2 img{
+      width:500px;
+  }
+  .tab-grid{
+      column-count: 4;
+  }
+}    
+@media screen and (min-width:1440px){
+    .offers-flex img{
+        width:70% !important;
+    }
+}
