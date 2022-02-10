@@ -12,12 +12,14 @@ body{
 }
 /*homepage*/
 .main-homepage{
-    background-image: url("./images/livingroom.jpg");
-    min-height:100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    height:100vh;
+}
+.main-homepage-img{
+    position: absolute;
+    height:100vh;
+    width:100%;
+    object-fit: cover;
 }
 .arrow-down{
     position:relative;
