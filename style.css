@@ -140,6 +140,7 @@ section .thumbnail{
 /* footer */
 .more-info{
     display:flex;
+    flex-direction:column;
     justify-content: space-between;
     padding:0 20px;
 }
@@ -199,6 +200,9 @@ padding:30px;
     }
     .homepage-info h2{
         font-size: 40px;
+    }
+    .more-info{
+    flex-direction:row;
     }
 }
 
