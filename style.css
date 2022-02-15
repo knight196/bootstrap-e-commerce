@@ -262,6 +262,9 @@ flex-direction: row !important;
   .arrow{
       display:block;
   }
+      .input-form{
+      margin-top:70px !important;
+  }
 }    
 @media screen and (min-width:1440px){
     .offers-flex img{
